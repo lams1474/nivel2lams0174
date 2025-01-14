@@ -1,40 +1,60 @@
-class Libro:
-    def __init__(self, titulo, autor, copias):
-        self.titulo = titulo
-        self.autor = autor
-        self.copias = copias
+# Programación Tradicional
+# Ejemplo: Gestión de una cuenta bancaria
 
-    def prestar(self):
-        if self.copias > 0:
-            self.copias -= 1
-            print(f"El libro '{self.titulo}' ha sido prestado.")
-        else:
-            print(f"No hay copias disponibles de '{self.titulo}'.")
+# Definición de variables globales
+balance = 0
+interest_rate = 0.05
 
-    def devolver(self):
-        self.copias += 1
-        print(f"El libro '{self.titulo}' ha sido devuelto.")
+# Función para depositar dinero en la cuenta
+def deposit(amount):
+    global balance
+    balance += amount
+
+# Función para retirar dinero de la cuenta
+def withdraw(amount):
+    global balance
+    balance -= amount
+
+# Función para calcular el interés y actualizar el saldo
+def calculate_interest():
+    global balance, interest_rate
+    interest = balance * interest_rate
+    balance += interest
+
+# Uso de las funciones en la programación tradicional
+deposit(1000)
+withdraw(500)
+calculate_interest()
+
+# Imprimir el saldo final
+print("Balance (Traditional):", balance)
 
 
-class Usuario:
-    def __init__(self, nombre):
-        self.nombre = nombre
-        self.libros_prestados = []
+# Programación Orientada a Objetos (POO)
+# Ejemplo: Gestión de una cuenta bancaria
 
-    def tomar_prestado(self, libro):
-        libro.prestar()
-        self.libros_prestados.append(libro)
+class BankAccount:
+    def __init__(self, initial_balance=0, interest_rate=0.05):
+        self.balance = initial_balance
+        self.interest_rate = interest_rate
 
-    def devolver_libro(self, libro):
-        libro.devolver()
-        self.libros_prestados.remove(libro)
+    def deposit(self, amount):
+        self.balance += amount
 
+    def withdraw(self, amount):
+        self.balance -= amount
 
-# Ejemplo de uso
-libro1 = Libro("1984", "George Orwell", 3)
-libro2 = Libro("El Quijote", "Miguel de Cervantes", 2)
+    def calculate_interest(self):
+        interest = self.balance * self.interest_rate
+        self.balance += interest
 
-usuario = Usuario("Carlos")
-usuario.tomar_prestado(libro1)
-usuario.tomar_prestado(libro2)
-usuario.devolver_libro(libro1)
+# Crear una instancia de la clase BankAccount
+account = BankAccount()
+
+# Uso de los métodos en la programación orientada a objetos
+account.deposit(1000)
+account.withdraw(500)
+account.calculate_interest()
+
+# Imprimir el saldo final
+print("Balance (OOP):", account.balance)
