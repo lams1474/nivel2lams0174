@@ -24,7 +24,6 @@ def mostrar_menu():
         '4': 'Semana5/Sistema de Registrode Notas semana5.py',
         '5': 'Semana6/Sistema de Gestión d la Biblioteca  semana6.py',
         '6': 'Semana7/Clas CuentaBancaria tarea7.py',
-        '7': 'Zejemplosvarios20/clae libro.py/Control de Conexiones de Base de Datos.py/Código Python.py/EJEMPLO AUTO CLASE 7.py/Gestión de Archivos.py/Gestión de Procesos Temporales.py/Gestión de una Cola de Tareas.py/Gestión de vehículos concesionario.py/Personaje basico.py/Policia victima y delincuente.py/Programación Orientada a Objetos (POO) semana3.py/PRUEBAS.py/Tecnicas de Programacion.py',
 
         # Agrega aquí el resto de las rutas de los scripts
     }
