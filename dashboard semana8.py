@@ -19,7 +19,7 @@ def mostrar_menu():
 
     opciones = {
         '1': 'Deberes nivel2/Semana2/1.1. Tipos de Datos e Identificadores/Nomenclatura en Python tarea1.py',
-        '2': 'Semana3/1.2. SEMANA 3/Programación Orientada a Objetos (POO) semana3.py/Programación Tradicional semana 3.py',
+        '2': 'Deberes nivel2/Semana3/1.2. SEMANA 3/Programación Orientada a Objetos (POO) semana3.py/Programación Tradicional semana 3.py',
         '3': 'Deberes nivel2/Semana4/1.1. Tipos de Datos e Identificadores/Nomenclatura en Python tarea1.py',
         '4': 'Deberes nivel2/Semana5/1.1. Tipos de Datos e Identificadores/Nomenclatura en Python tarea1.py',
         '5': 'Deberes nivel2/Semana6/1.1. Tipos de Datos e Identificadores/Nomenclatura en Python tarea1.py',
