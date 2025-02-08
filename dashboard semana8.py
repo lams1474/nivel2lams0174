@@ -19,6 +19,9 @@ def mostrar_menu():
 
     opciones = {
         '1': 'Deberes nivel2/Semana2/1.1. Tipos de Datos e Identificadores/Nomenclatura en Python tarea1.py',
+        '2': 'Deber semana3/Semana 3/Programación Orientada a Objetos (POO) semana3.py',
+        '3': 'Deber semana4/Semana 4/Calculadorade Área Figuras Geométricas semana4.py',
+        '4': 'Deber semana5/Semana 5/Sistema de Registrode Notas semana5.py',
 
         # Agrega aquí el resto de las rutas de los scripts
     }
