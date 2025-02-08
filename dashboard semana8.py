@@ -18,7 +18,7 @@ def mostrar_menu():
     ruta_base = os.path.dirname(__file__)
 
     opciones = {
-        '1': 'Deberes nivel2/Semana2/1.1. Tipos de Datos e Identificadores/Nomenclatura en Python tarea1.py/Programación Tradicional semana 3.py',
+        '1': 'Deberes nivel2/Semana2/1.1. Tipos de Datos e Identificadores/Nomenclatura en Python tarea1.py',
 
         # Agrega aquí el resto de las rutas de los scripts
     }
