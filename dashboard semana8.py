@@ -22,6 +22,9 @@ def mostrar_menu():
         '2': 'Deber semana3/Semana 3/Programación Orientada a Objetos (POO) semana3.py',
         '3': 'Deber semana4/Semana 4/Calculadorade Área Figuras Geométricas semana4.py',
         '4': 'Deber semana5/Semana 5/Sistema de Registrode Notas semana5.py',
+        '5': 'Deber semana6/Semana 6/Sistema de Gestión d la Biblioteca  semana6.py',
+        '6': 'Deber semana7/Semana 7/Clas CuentaBancaria tarea7.py',
+        '7': 'Mis practicas/practica 1 control de conexiones/Control de Conexiones de Base de Datos.py',
 
         # Agrega aquí el resto de las rutas de los scripts
     }
