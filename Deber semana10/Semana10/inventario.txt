@@ -1,0 +1,5 @@
+1,arroz,0,25.0
+2,pan,52,0.15
+3,atun,25,2.0
+4,galletas,5,3.0
+5,galletas,25,1.0
